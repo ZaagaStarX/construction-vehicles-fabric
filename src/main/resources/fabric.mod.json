@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "ol_reliable",
+  "version": "${version}",
+  "name": "Ol’ Reliable Miner Helmet",
+  "description": "A practical miner helmet with diamond-level protection, permanent Haste I while equipped, and optional dynamic lighting support.",
+  "authors": ["ZagaStarX"],
+  "icon": "assets/ol_reliable/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.zagastarx.olreliable.OlReliableMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.7",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
